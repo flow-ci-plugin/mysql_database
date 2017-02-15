@@ -1,0 +1,21 @@
+
+name: mysql_database
+version: 0.0.1
+language: 
+description: Launch MySQL database
+public: true
+tags:
+  - mysql
+  - database
+inputs:
+outputs:
+  - name: FLOW_DATABASE_MYSQL_VERSION
+  - name: FLOW_DATABASE_MYSQL_IP
+  - name: FLOW_DATABASE_MYSQL_PORT
+  - name: FLOW_DATABASE_MYSQL_USER
+  - name: FLOW_DATABASE_MYSQL_PWD
+script_path: ./run.sh  
+  
+template: |  
+  
+  
